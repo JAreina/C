@@ -2,19 +2,25 @@
 <CodeLite_Workspace Name="workspace-codelite-c" Database="">
   <Project Name="workspace-codelite-c" Path="workspace-codelite-c.project" Active="No"/>
   <Project Name="1-hello-world" Path="1-hello-world/1-hello-world.project" Active="No"/>
-  <Project Name="2-PUTS" Path="2-PUTS/2-PUTS.project" Active="Yes"/>
+  <Project Name="2-PUTS" Path="2-PUTS/2-PUTS.project" Active="No"/>
+  <Project Name="3-PRINTF" Path="3-PRINTF/3-PRINTF.project" Active="No"/>
+  <Project Name="4-VARIABLES" Path="4-VARIABLES/4-VARIABLES.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="workspace-codelite-c" ConfigName="Debug"/>
       <Project Name="1-hello-world" ConfigName="Debug"/>
       <Project Name="2-PUTS" ConfigName="Debug"/>
+      <Project Name="3-PRINTF" ConfigName="Debug"/>
+      <Project Name="4-VARIABLES" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="workspace-codelite-c" ConfigName="Debug"/>
       <Project Name="1-hello-world" ConfigName="Release"/>
       <Project Name="2-PUTS" ConfigName="Release"/>
+      <Project Name="3-PRINTF" ConfigName="Release"/>
+      <Project Name="4-VARIABLES" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
