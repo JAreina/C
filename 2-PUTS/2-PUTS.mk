@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=3-HOLA-MUNDO
+ProjectName            :=2-PUTS
 ConfigurationName      :=Debug
 WorkspacePath          := "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c"
-ProjectPath            := "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/3-HOLA-MUNDO"
+ProjectPath            := "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/2-PUTS"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="3-HOLA-MUNDO.txt"
+ObjectsFileList        :="2-PUTS.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/3-HOLA-MUNDO/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/2-PUTS/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM "main.c"
 
