@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="workspace-codelite-c" Database="">
+  <Project Name="workspace-codelite-c" Path="workspace-codelite-c.project" Active="No"/>
+  <Project Name="1-hello-world" Path="1-hello-world/1-hello-world.project" Active="No"/>
+  <Project Name="3-HOLA-MUNDO" Path="3-HOLA-MUNDO/3-HOLA-MUNDO.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="workspace-codelite-c" ConfigName="Debug"/>
+      <Project Name="1-hello-world" ConfigName="Debug"/>
+      <Project Name="3-HOLA-MUNDO" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="workspace-codelite-c" ConfigName="Debug"/>
+      <Project Name="1-hello-world" ConfigName="Release"/>
+      <Project Name="3-HOLA-MUNDO" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
