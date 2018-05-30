@@ -1,5 +1,0 @@
-# C
-
-JAreina
-
-Editor: codelite
