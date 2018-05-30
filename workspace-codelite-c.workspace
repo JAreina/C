@@ -4,15 +4,21 @@
   <Project Name="1-hello-world" Path="1-hello-world/1-hello-world.project" Active="No"/>
   <Project Name="2-PUTS" Path="2-PUTS/2-PUTS.project" Active="No"/>
   <Project Name="3-PRINTF" Path="3-PRINTF/3-PRINTF.project" Active="No"/>
-  <Project Name="4-VARIABLES" Path="4-VARIABLES/4-VARIABLES.project" Active="Yes"/>
+  <Project Name="4-VARIABLES" Path="4-VARIABLES/4-VARIABLES.project" Active="No"/>
+  <Project Name="5-PUTCHAR-GETCHAR" Path="5-PUTCHAR-GETCHAR/5-PUTCHAR-GETCHAR.project" Active="No"/>
+  <Project Name="6-STRING" Path="6-STRING/6-STRING.project" Active="No"/>
+  <Project Name="7-SCANF" Path="7-SCANF/7-SCANF.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="yes">
+    <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
       <Project Name="workspace-codelite-c" ConfigName="Debug"/>
       <Project Name="1-hello-world" ConfigName="Debug"/>
       <Project Name="2-PUTS" ConfigName="Debug"/>
       <Project Name="3-PRINTF" ConfigName="Debug"/>
       <Project Name="4-VARIABLES" ConfigName="Debug"/>
+      <Project Name="5-PUTCHAR-GETCHAR" ConfigName="Debug"/>
+      <Project Name="6-STRING" ConfigName="Debug"/>
+      <Project Name="7-SCANF" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +27,9 @@
       <Project Name="2-PUTS" ConfigName="Release"/>
       <Project Name="3-PRINTF" ConfigName="Release"/>
       <Project Name="4-VARIABLES" ConfigName="Release"/>
+      <Project Name="5-PUTCHAR-GETCHAR" ConfigName="Release"/>
+      <Project Name="6-STRING" ConfigName="Release"/>
+      <Project Name="7-SCANF" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
