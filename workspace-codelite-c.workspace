@@ -12,7 +12,8 @@
   <Project Name="9-WHILE" Path="9-WHILE/9-WHILE.project" Active="No"/>
   <Project Name="10-DO-WHILE" Path="10-DO-WHILE/10-DO-WHILE.project" Active="No"/>
   <Project Name="12-DO-WHILE-MENU" Path="12-DO-WHILE-MENU/12-DO-WHILE-MENU.project" Active="No"/>
-  <Project Name="13-BREAK-CONTINUE" Path="13-BREAK-CONTINUE/13-BREAK-CONTINUE.project" Active="Yes"/>
+  <Project Name="13-BREAK-CONTINUE" Path="13-BREAK-CONTINUE/13-BREAK-CONTINUE.project" Active="No"/>
+  <Project Name="14-BREAK-CONTINUE-2" Path="14-BREAK-CONTINUE-2/14-BREAK-CONTINUE-2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -29,6 +30,7 @@
       <Project Name="10-DO-WHILE" ConfigName="Debug"/>
       <Project Name="12-DO-WHILE-MENU" ConfigName="Debug"/>
       <Project Name="13-BREAK-CONTINUE" ConfigName="Debug"/>
+      <Project Name="14-BREAK-CONTINUE-2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -45,6 +47,7 @@
       <Project Name="10-DO-WHILE" ConfigName="Release"/>
       <Project Name="12-DO-WHILE-MENU" ConfigName="Release"/>
       <Project Name="13-BREAK-CONTINUE" ConfigName="Release"/>
+      <Project Name="14-BREAK-CONTINUE-2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
