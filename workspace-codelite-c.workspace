@@ -9,7 +9,10 @@
   <Project Name="6-STRING" Path="6-STRING/6-STRING.project" Active="No"/>
   <Project Name="7-SCANF" Path="7-SCANF/7-SCANF.project" Active="No"/>
   <Project Name="8-FOR" Path="8-FOR/8-FOR.project" Active="No"/>
-  <Project Name="9-WHILE" Path="9-WHILE/9-WHILE.project" Active="Yes"/>
+  <Project Name="9-WHILE" Path="9-WHILE/9-WHILE.project" Active="No"/>
+  <Project Name="10-DO-WHILE" Path="10-DO-WHILE/10-DO-WHILE.project" Active="No"/>
+  <Project Name="12-DO-WHILE-MENU" Path="12-DO-WHILE-MENU/12-DO-WHILE-MENU.project" Active="No"/>
+  <Project Name="13-BREAK-CONTINUE" Path="13-BREAK-CONTINUE/13-BREAK-CONTINUE.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -23,6 +26,9 @@
       <Project Name="7-SCANF" ConfigName="Debug"/>
       <Project Name="8-FOR" ConfigName="Debug"/>
       <Project Name="9-WHILE" ConfigName="Debug"/>
+      <Project Name="10-DO-WHILE" ConfigName="Debug"/>
+      <Project Name="12-DO-WHILE-MENU" ConfigName="Debug"/>
+      <Project Name="13-BREAK-CONTINUE" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +42,9 @@
       <Project Name="7-SCANF" ConfigName="Release"/>
       <Project Name="8-FOR" ConfigName="Release"/>
       <Project Name="9-WHILE" ConfigName="Release"/>
+      <Project Name="10-DO-WHILE" ConfigName="Release"/>
+      <Project Name="12-DO-WHILE-MENU" ConfigName="Release"/>
+      <Project Name="13-BREAK-CONTINUE" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
