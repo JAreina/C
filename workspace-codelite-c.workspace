@@ -8,7 +8,8 @@
   <Project Name="5-PUTCHAR-GETCHAR" Path="5-PUTCHAR-GETCHAR/5-PUTCHAR-GETCHAR.project" Active="No"/>
   <Project Name="6-STRING" Path="6-STRING/6-STRING.project" Active="No"/>
   <Project Name="7-SCANF" Path="7-SCANF/7-SCANF.project" Active="No"/>
-  <Project Name="8-FOR" Path="8-FOR/8-FOR.project" Active="Yes"/>
+  <Project Name="8-FOR" Path="8-FOR/8-FOR.project" Active="No"/>
+  <Project Name="9-WHILE" Path="9-WHILE/9-WHILE.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="6-STRING" ConfigName="Debug"/>
       <Project Name="7-SCANF" ConfigName="Debug"/>
       <Project Name="8-FOR" ConfigName="Debug"/>
+      <Project Name="9-WHILE" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="6-STRING" ConfigName="Release"/>
       <Project Name="7-SCANF" ConfigName="Release"/>
       <Project Name="8-FOR" ConfigName="Release"/>
+      <Project Name="9-WHILE" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
