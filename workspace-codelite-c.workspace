@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="workspace-codelite-c" Database="">
+<CodeLite_Workspace Name="workspace-codelite-c" Database="" Version="10.0.0">
   <Project Name="workspace-codelite-c" Path="workspace-codelite-c.project" Active="No"/>
   <Project Name="1-hello-world" Path="1-hello-world/1-hello-world.project" Active="No"/>
   <Project Name="2-PUTS" Path="2-PUTS/2-PUTS.project" Active="No"/>
@@ -7,7 +7,8 @@
   <Project Name="4-VARIABLES" Path="4-VARIABLES/4-VARIABLES.project" Active="No"/>
   <Project Name="5-PUTCHAR-GETCHAR" Path="5-PUTCHAR-GETCHAR/5-PUTCHAR-GETCHAR.project" Active="No"/>
   <Project Name="6-STRING" Path="6-STRING/6-STRING.project" Active="No"/>
-  <Project Name="7-SCANF" Path="7-SCANF/7-SCANF.project" Active="Yes"/>
+  <Project Name="7-SCANF" Path="7-SCANF/7-SCANF.project" Active="No"/>
+  <Project Name="8-FOR" Path="8-FOR/8-FOR.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -19,6 +20,7 @@
       <Project Name="5-PUTCHAR-GETCHAR" ConfigName="Debug"/>
       <Project Name="6-STRING" ConfigName="Debug"/>
       <Project Name="7-SCANF" ConfigName="Debug"/>
+      <Project Name="8-FOR" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="5-PUTCHAR-GETCHAR" ConfigName="Release"/>
       <Project Name="6-STRING" ConfigName="Release"/>
       <Project Name="7-SCANF" ConfigName="Release"/>
+      <Project Name="8-FOR" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

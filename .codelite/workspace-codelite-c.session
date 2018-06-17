@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/workspace-codelite-c.workspace">
-  <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/workspace-codelite-c.workspace" Name="m_workspaceName"/>
+<Session Name="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/workspace-codelite-c.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/workspace-codelite-c.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/7-SCANF/main.c" Name="FileName"/>
-      <int Value="42" Name="FirstVisibleLine"/>
-      <int Value="48" Name="CurrentLine"/>
+      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/7-SCANF/main.c" Name="FileName"/>
+      <int Value="48" Name="FirstVisibleLine"/>
+      <int Value="30" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/1-hello-world/main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
