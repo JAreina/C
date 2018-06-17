@@ -5,16 +5,16 @@
 ## Release
 ProjectName            :=7-SCANF
 ConfigurationName      :=Release
-WorkspacePath          := "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c"
-ProjectPath            := "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/7-SCANF"
+WorkspacePath          :=/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c
+ProjectPath            :=/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/7-SCANF
 IntermediateDirectory  :=./Release
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=juan
-Date                   :=30/05/18
-CodeLitePath           :="/home/juan/.codelite"
+Date                   :=17/06/18
+CodeLitePath           :=/home/juan/.codelite
 LinkerName             :=gcc
 SharedObjectLinkerName :=gcc -shared -fPIC
 ObjectSuffix           :=.o
@@ -92,12 +92,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/juan/Documentos/2018-01-oposiciones-tai/tai-code-programa/workspace-codelite-c/7-SCANF/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/7-SCANF/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM "main.c"
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
 $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) "main.c"
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
