@@ -13,7 +13,11 @@
   <Project Name="10-DO-WHILE" Path="10-DO-WHILE/10-DO-WHILE.project" Active="No"/>
   <Project Name="12-DO-WHILE-MENU" Path="12-DO-WHILE-MENU/12-DO-WHILE-MENU.project" Active="No"/>
   <Project Name="13-BREAK-CONTINUE" Path="13-BREAK-CONTINUE/13-BREAK-CONTINUE.project" Active="No"/>
-  <Project Name="14-BREAK-CONTINUE-2" Path="14-BREAK-CONTINUE-2/14-BREAK-CONTINUE-2.project" Active="Yes"/>
+  <Project Name="14-BREAK-CONTINUE-2" Path="14-BREAK-CONTINUE-2/14-BREAK-CONTINUE-2.project" Active="No"/>
+  <Project Name="15-ARRAYS-bidimensional" Path="15-ARRAYS-bidimensional/15-ARRAYS-bidimensional.project" Active="No"/>
+  <Project Name="16-CADENAS-arrays-de-caracteres" Path="16-CADENAS-arrays-de-caracteres/16-CADENAS-arrays-de-caracteres.project" Active="No"/>
+  <Project Name="17-funciones" Path="17-funciones/17-funciones.project" Active="No"/>
+  <Project Name="18-funciones-void-procedimientos" Path="18-funciones-void-procedimientos/18-funciones-void-procedimientos.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -31,6 +35,10 @@
       <Project Name="12-DO-WHILE-MENU" ConfigName="Debug"/>
       <Project Name="13-BREAK-CONTINUE" ConfigName="Debug"/>
       <Project Name="14-BREAK-CONTINUE-2" ConfigName="Debug"/>
+      <Project Name="15-ARRAYS-bidimensional" ConfigName="Debug"/>
+      <Project Name="16-CADENAS-arrays-de-caracteres" ConfigName="Debug"/>
+      <Project Name="17-funciones" ConfigName="Debug"/>
+      <Project Name="18-funciones-void-procedimientos" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +56,10 @@
       <Project Name="12-DO-WHILE-MENU" ConfigName="Release"/>
       <Project Name="13-BREAK-CONTINUE" ConfigName="Release"/>
       <Project Name="14-BREAK-CONTINUE-2" ConfigName="Release"/>
+      <Project Name="15-ARRAYS-bidimensional" ConfigName="Release"/>
+      <Project Name="16-CADENAS-arrays-de-caracteres" ConfigName="Release"/>
+      <Project Name="17-funciones" ConfigName="Release"/>
+      <Project Name="18-funciones-void-procedimientos" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
