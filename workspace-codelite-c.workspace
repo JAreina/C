@@ -17,7 +17,12 @@
   <Project Name="15-ARRAYS-bidimensional" Path="15-ARRAYS-bidimensional/15-ARRAYS-bidimensional.project" Active="No"/>
   <Project Name="16-CADENAS-arrays-de-caracteres" Path="16-CADENAS-arrays-de-caracteres/16-CADENAS-arrays-de-caracteres.project" Active="No"/>
   <Project Name="17-funciones" Path="17-funciones/17-funciones.project" Active="No"/>
-  <Project Name="18-funciones-void-procedimientos" Path="18-funciones-void-procedimientos/18-funciones-void-procedimientos.project" Active="Yes"/>
+  <Project Name="18-funciones-void-procedimientos" Path="18-funciones-void-procedimientos/18-funciones-void-procedimientos.project" Active="No"/>
+  <Project Name="16-1-array" Path="16-1-array/16-1-array.project" Active="No"/>
+  <Project Name="19-punteross" Path="19-punteross/19-punteross.project" Active="No"/>
+  <Project Name="20-puntero-a-puntero" Path="20-puntero-a-puntero/20-puntero-a-puntero.project" Active="No"/>
+  <Project Name="21-ARRAY-DE-PUNTEROS" Path="21-ARRAY-DE-PUNTEROS/21-ARRAY-DE-PUNTEROS.project" Active="No"/>
+  <Project Name="16-2-STRING-H" Path="16-2-STRING-H/16-2-STRING-H.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -39,6 +44,11 @@
       <Project Name="16-CADENAS-arrays-de-caracteres" ConfigName="Debug"/>
       <Project Name="17-funciones" ConfigName="Debug"/>
       <Project Name="18-funciones-void-procedimientos" ConfigName="Debug"/>
+      <Project Name="16-1-array" ConfigName="Debug"/>
+      <Project Name="19-punteross" ConfigName="Debug"/>
+      <Project Name="20-puntero-a-puntero" ConfigName="Debug"/>
+      <Project Name="21-ARRAY-DE-PUNTEROS" ConfigName="Debug"/>
+      <Project Name="16-2-STRING-H" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -60,6 +70,11 @@
       <Project Name="16-CADENAS-arrays-de-caracteres" ConfigName="Release"/>
       <Project Name="17-funciones" ConfigName="Release"/>
       <Project Name="18-funciones-void-procedimientos" ConfigName="Release"/>
+      <Project Name="16-1-array" ConfigName="Release"/>
+      <Project Name="19-punteross" ConfigName="Release"/>
+      <Project Name="20-puntero-a-puntero" ConfigName="Release"/>
+      <Project Name="21-ARRAY-DE-PUNTEROS" ConfigName="Release"/>
+      <Project Name="16-2-STRING-H" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
