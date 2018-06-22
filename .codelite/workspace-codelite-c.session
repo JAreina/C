@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/workspace-codelite-c.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="4" Name="m_selectedTab"/>
   <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/workspace-codelite-c.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
+      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/19-punteross/main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/21-ARRAY-DE-PUNTEROS/main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/16-1-array/main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
       <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/16-CADENAS-arrays-de-caracteres/main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="15" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/17-funciones/main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/18-funciones-void-procedimientos/main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <wxString Value="/home/juan/MEGA/2018-06-TAI/WORKSPACE/workspace-codelite-c/16-2-STRING-H/main.c" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

@@ -22,7 +22,10 @@
   <Project Name="19-punteross" Path="19-punteross/19-punteross.project" Active="No"/>
   <Project Name="20-puntero-a-puntero" Path="20-puntero-a-puntero/20-puntero-a-puntero.project" Active="No"/>
   <Project Name="21-ARRAY-DE-PUNTEROS" Path="21-ARRAY-DE-PUNTEROS/21-ARRAY-DE-PUNTEROS.project" Active="No"/>
-  <Project Name="16-2-STRING-H" Path="16-2-STRING-H/16-2-STRING-H.project" Active="Yes"/>
+  <Project Name="16-2-STRING-H" Path="16-2-STRING-H/16-2-STRING-H.project" Active="No"/>
+  <Project Name="18-1-funcion-parametros" Path="18-1-funcion-parametros/18-1-funcion-parametros.project" Active="No"/>
+  <Project Name="18-2-funcion-parametros-por-VALOR" Path="18-2-funcion-parametros-por-VALOR/18-2-funcion-parametros-por-VALOR.project" Active="No"/>
+  <Project Name="18-3-funcion-parametros-por-REFERENCIA" Path="18-3-funcion-parametros-por-REFERENCIA/18-3-funcion-parametros-por-REFERENCIA.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -49,6 +52,9 @@
       <Project Name="20-puntero-a-puntero" ConfigName="Debug"/>
       <Project Name="21-ARRAY-DE-PUNTEROS" ConfigName="Debug"/>
       <Project Name="16-2-STRING-H" ConfigName="Debug"/>
+      <Project Name="18-1-funcion-parametros" ConfigName="Debug"/>
+      <Project Name="18-2-funcion-parametros-por-VALOR" ConfigName="Debug"/>
+      <Project Name="18-3-funcion-parametros-por-REFERENCIA" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -75,6 +81,9 @@
       <Project Name="20-puntero-a-puntero" ConfigName="Release"/>
       <Project Name="21-ARRAY-DE-PUNTEROS" ConfigName="Release"/>
       <Project Name="16-2-STRING-H" ConfigName="Release"/>
+      <Project Name="18-1-funcion-parametros" ConfigName="Release"/>
+      <Project Name="18-2-funcion-parametros-por-VALOR" ConfigName="Release"/>
+      <Project Name="18-3-funcion-parametros-por-REFERENCIA" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
